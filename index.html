@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vedha's Portfolio</title>
+    <style>
+        /* Basic styling for the entire page */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Set image as a full-page background */
+        img.bg-image {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        /* Add more styles for header, navigation, intro, projects, and contact sections */
+
+        /* Example animation */
+        .project {
+            background-color: rgba(255, 255, 255, 0.8); /* Background color with transparency */
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .project:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <img src="https://my-first-tf-bucket-vedha.s3.amazonaws.com/welcome.jpg" alt="Background Image" class="bg-image">
+    <header>
+        <h1>Vedha's DevOps Portfolio</h1>
+    </header>
+    <nav>
+        <!-- Add navigation links here if needed -->
+    </nav>
+    <section class="intro">
+        <h2>About Me</h2>
+        <p>I am a passionate DevOps Engineer with experience in managing AWS infrastructure and deploying scalable and reliable solutions.</p>
+    </section>
+    <section class="projects">
+        <h2>AWS DevOps Projects</h2>
+        <!-- Project 1 -->
+        <div class="project">
+            <h3>Project 1: AWS Infrastructure Automation</h3>
+            <p>This project involved automating the provisioning and management of AWS resources using Infrastructure as Code (IaC) tools such as AWS CloudFormation and Terraform. I designed and implemented templates to create and manage EC2 instances, VPCs, S3 buckets, and more. This automation reduced manual configuration errors and improved resource scalability.</p>
+        </div>
+        <!-- Project 2 -->
+        <div class="project">
+            <h3>Project 2: Continuous Integration and Deployment (CI/CD)</h3>
+            <p>In this project, I set up a CI/CD pipeline using AWS CodePipeline and AWS CodeBuild. The pipeline automated the testing, building, and deployment of applications hosted on AWS Elastic Beanstalk. I integrated GitHub with the pipeline, enabling automatic deployments upon code commits. This streamlined the development workflow and ensured consistent deployments.</p>
+        </div>
+        <!-- Add more project sections as needed -->
+    </section>
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out to me at vedha@example.com.</p>
+    </section>
+    <footer>
+        <p>&copy; 2023 Vedha's Portfolio</p>
+    </footer>
+</body>
+</html>
